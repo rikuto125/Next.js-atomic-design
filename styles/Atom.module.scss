@@ -1,0 +1,21 @@
+//--------基本カラー設定----------------
+$color-default: #CCD6A6;
+$color-primary: #DAE2B6;
+$color-secondary: #F4EAD5;
+$color-tertiary: #F9F4E9;
+
+.background-default{
+    background-color: $color-tertiary;
+}
+
+.background-primary{
+    background-color: $color-secondary;
+}
+
+.background-secondary{
+    background-color: $color-primary;
+}
+
+.background-tertiary{
+    background-color: $color-default;
+}

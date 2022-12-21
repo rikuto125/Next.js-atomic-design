@@ -1,0 +1,204 @@
+//--------基本カラー設定----------------
+$color-default: #CCD6A6;
+$color-primary: #DAE2B6;
+$color-secondary: #F4EAD5;
+$color-tertiary: #F9F4E9;
+
+
+//--------基本カラー----------------
+.default{
+    color: $color-default;
+}
+
+.primary{
+    color: $color-primary;
+}
+
+.secondary{
+    color: $color-secondary;
+}
+
+.tertiary{
+    color: $color-tertiary;
+}
+
+.quaternary{
+    color: green;
+}
+
+.default{
+    color: black;
+}
+
+//-----------サイズ----------------
+
+.small{
+    font-size: 12px;
+}
+
+.medium{
+    font-size: 16px;
+}
+
+.large{
+    font-size: 20px;
+}
+
+//-----------variant----------------
+//outlineとは、縁取りのこと　solidは塗りつぶしのこと
+.outline{
+    border: 1px solid;
+}
+
+.solid{
+    background-color: black;
+    color: white;
+}
+
+.text{
+    background-color: aliceblue;
+}
+
+//-----------shape----------------
+
+.round{
+    border-radius: 50%;
+}
+
+.square{
+    border-radius: 0;
+}
+
+//-----------position----------------
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+//-----------margin----------------
+.margin-10{
+    margin: 10px 10px 10px 10px;
+}
+.margin-20{
+    margin: 20px 20px 20px 20px;
+}
+.margin-30{
+    margin: 30px 30px 30px 30px;
+}
+
+//-----------margin-bottom-left-----------------
+.margin-bottom-left-10{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.margin-bottom-left-20{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.margin-bottom-left-30{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+//-----------border_radius----------------
+.border-radius-1{
+    border-radius: 1px;
+}
+
+.border-radius-2{
+    border-radius: 2px;
+}
+
+.border-radius-3{
+    border-radius: 3px;
+}
+
+.border-radius-5{
+    border-radius: 5px;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+.border-radius-20{
+    border-radius: 20px;
+}
+.border-radius-30{
+    border-radius: 30px;
+}
+.border-radius-40{
+    border-radius: 40px;
+}
+.border-radius-50{
+    border-radius: 50px;
+}
+.border-radius-50{
+    border-radius: 50px;
+}
+.border-radius-60{
+    border-radius: 60px;
+}
+.border-radius-70{
+    border-radius: 70px;
+}
+.border-radius-80{
+    border-radius: 80px;
+}
+.border-radius-90{
+    border-radius: 90px;
+}
+.border-radius-100{
+    border-radius: 300%;
+}
+
+//-----------background_color----------------
+.background-color-1{
+    background-color: $color-default
+}
+
+.background-color-2{
+    background-color: $color-primary
+}
+
+.background-color-3{
+    background-color: $color-secondary
+}
+
+.background-color-4{
+    background-color: $color-tertiary
+}
+
+//-----------width----------------
+.width-10{
+    width: 10px;
+}
+.width-50{
+    width: 50px;
+}
+
+.width-100{
+    width: 100px;
+}
+
+.width-200{
+    width: 200px;
+}
+
+.width-300{
+    width: 300px;
+}
+
+.width-400{
+    width: 400px;
+}
+
+.width-500{
+    width: 500px;
+}
